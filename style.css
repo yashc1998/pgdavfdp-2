@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.form {
+  -webkit-box-shadow: 5px 5px 10px gray;
+          box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+}
+
+.form .col-sm-4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 128, 0, 0.473)), to(rgba(0, 128, 0, 0.384))), url(http://lexpops.com/wp/wp-content/uploads/2014/03/Meadow-Background-Image-Web1.jpg);
+  background-image: linear-gradient(rgba(0, 128, 0, 0.473), rgba(0, 128, 0, 0.384)), url(http://lexpops.com/wp/wp-content/uploads/2014/03/Meadow-Background-Image-Web1.jpg);
+  background-size: cover;
+}
+
+nav {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button {
+  font-size: 1.5em;
+}
+
+.header {
+  padding: 20px;
+  background: url("images/bg-3.png");
+  background-size: cover;
+  background-position: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.header h1,
+.header h2,
+.header h3,
+.header h4,
+.header h5,
+.header h6 {
+  color: white;
+}
+
+.header h3 {
+  font-weight: bolder;
+}
+
+#right-info h5 {
+  text-decoration: underline;
+}
+
+#right-info p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.chimp {
+  border-radius: 100px;
+  padding: 10px 20px;
+  background: gray;
+  color: white;
+  margin: 10px 0px !important;
+}
+
+.chimp:hover {
+  -webkit-box-shadow: 0px 0px 10px #333;
+          box-shadow: 0px 0px 10px #333;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.links {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.info-cards .row .card .card-content p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.info-cards .row .card {
+  min-height: 350px;
+  margin: 20px 10px;
+}
+
+#key-information ul li p {
+  font-size: 15px;
+}
+
+.collection-item {
+  background-color: unset !important;
+}
+
+.collection-item span {
+  text-decoration: underline;
+}
+
+.card {
+  -webkit-box-shadow: 0px 0px 10px #333;
+          box-shadow: 0px 0px 10px #333;
+}
+/*# sourceMappingURL=style.css.map */
